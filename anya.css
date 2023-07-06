@@ -1287,13 +1287,13 @@ span:not(.spinner-item) {
   flex: 1 1 100%;
 }
 #account-status-picker--online,
-#account-status-picker--dnd,
+#account-status-picker--dnd,<
 #account-status-picker--idle,
 #account-status-picker--invisible {
   flex: 1 1 calc(25% - 2px);
   display: flex;
   justify-content: center;
-  height: 80px;
+  height: 40px;
 }
 .status-qmUf7L,
 .description-22_U3B,
