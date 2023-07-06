@@ -9,11 +9,9 @@
 /****ADDONS****/
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css");
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
-@import url("https://warrayquipsome.github.io/Chillax/ChillaxTag.css");
-@import url("https://warrayquipsome.github.io/Chillax/Addons/SettingsModalEdited.css");
 @import url("https://crearts-community.github.io/Friends-Grid/theme.css");
 @import url("https://neodymium7.github.io/BetterDiscordStuff/CSS/AddServerDarkMode.css");
-@import url(//dablulite.github.io/css-snippets/AccountDetailsGrid/import.css);
+@import url("https://dablulite.github.io/css-snippets/AccountDetailsGrid/import.css");
 
 
 
@@ -157,7 +155,7 @@
   display: none !important;
 }
 .theme-dark .wordmark-2u86JB::before {
-  content: "‏‏‎ c h i l l a x";
+  content: "‏‏‎ J A N A";
   font-size: 12px;
   font-family: "Poiret one" !important;
   position: fixed;
@@ -172,7 +170,7 @@
   transition: 0.5s ease-in-out;
 }
 .wordmark-2u86JB:hover:before {
-  content: "‏‏‎ c h i l l a x";
+  content: "‏‏‎ J A N A";
   letter-spacing: 2px;
 }
 /* button design*/
@@ -235,7 +233,7 @@
 }
 /* Replace Wandering Cubes Spinner/loading discord image with gif*/
 span[class="inner-26JK4f"]:after {
-  background-image: url("https://multiplexurbangreen.com/images/loader.gif");
+  background-image: url("https://i.imgur.com/OlGHa66.gif");
   background-size: cover;
   display: inline-block;
   width: 32px;
@@ -716,7 +714,7 @@ span:not(.spinner-item) {
   --cl-appearance: "Dark";
 }
 #app-mount .info-3pQQBb .line-18uChy:last-child:after {
-  content: "Chillax " var(--cl-appearance) " 🎮";
+  content: "JANA " var(--cl-appearance) " 🎮";
   display: block;
 }
 /*custom bd window edit*/
@@ -769,26 +767,13 @@ span:not(.spinner-item) {
 }
 .unreadPill-3nEWYM {
   background-color: var(--background-shading);
-  color: #fb5454;
   font-size: 12px;
   letter-spacing: 20px;
   right: 50%;
   left: 50%;
   width: 30px;
 }
-.isUnread-3Lojb- {
-  --divider-color: rgb(237, 0, 255);
-  border: none;
-  background: linear-gradient(
-    90deg,
-    rgba(237, 0, 255, 1) 0%,
-    #fb5454 25%,
-    rgba(0, 0, 0, 0) 50%,
-    #fb5454 75%,
-    rgba(254, 0, 255, 1) 100%
-  );
-  height: 1px;
-}
+
 .unreadPill-3nEWYM {
   top: -6px;
 }
@@ -817,57 +802,7 @@ span:not(.spinner-item) {
 .pill-1NRFie {
   display: none;
 }
-/* colored links */
-/* YouTube */
-[href*="youtu.be"],
-[href*="youtube.com"] {
-  color: #c4302b !important;
-}
-/* Twitch */
-[href*="twitch.tv"] {
-  color: #b700ff !important;
-}
-/* Discord */
-[href*="discord.com/channels/"] {
-  color: #7289da !important;
-}
-[href*="discord.com/channels/"]::before {
-  color: #603cff;
-}
-[href*="betterdiscord.app/"],
-[href*="discord.gg/"],
-[href*="discord.com/"],
-[href*="media.discordapp.net/"],
-[href*="cdn.discordapp.com/"] {
-  color: #7289da !important;
-}
-/* Twitter */
-[href*="twitter.com/"] {
-  color: #00acee !important;
-}
-/* GitHub */
-[href*="github.com"] {
-  color: #00f0a8 !important;
-}
-/* Imgur */
-[href*="i.imgur.com"] {
-  color: #89c623 !important;
-}
-/* Steam */
-[href*="store.steampowered.com"],
-[href*="https://s.team"],
-[href*="steamcommunity.com/"] {
-  color: #1b2838 !important;
-}
-/* Spotify */
-[href*="spotify.com"],
-[href*="open.spotify.com"] {
-  color: #13b94a !important;
-}
-/* SoundCloud */
-[href*="soundcloud.com"] {
-  color: #ff5500 !important;
-}
+
 
 /* Center profile badge, avatar and name */
 .avatarWrapperNormal-ahVUaC {
@@ -923,26 +858,6 @@ span:not(.spinner-item) {
   display: none;
 }
 /*glow radial status*/
-div[class*="wrapper-3Un6-K"][aria-label*="Streaming"]
-  > svg[class="mask-1y0tyc svg-1G_H_8"] {
-  filter: drop-shadow(0 0 3px var(--rs-streaming-color)) !important;
-}
-div[class*="wrapper-3Un6-K"][aria-label*="Do Not Disturb"]
-  > svg[class="mask-1y0tyc svg-1G_H_8"] {
-  filter: drop-shadow(0 0 3px var(--rs-dnd-color)) !important;
-}
-div[class*="wrapper-3Un6-K"][aria-label*="Offline"]
-  > svg[class="mask-1y0tyc svg-1G_H_8"] {
-  filter: drop-shadow(0 0 3px var(--rs-offline-color)) !important;
-}
-div[class*="wrapper-3Un6-K"][aria-label*="Idle"]
-  > svg[class="mask-1y0tyc svg-1G_H_8"] {
-  filter: drop-shadow(0 0 3px var(--rs-idle-color)) !important;
-}
-div[class*="wrapper-3Un6-K"][aria-label*="Online"]
-  > svg[class="mask-1y0tyc svg-1G_H_8"] {
-  filter: drop-shadow(0 0 3px var(--rs-online-color)) !important;
-}
 /*theme background image*/
 .bg-1QIAus {
   background-image: var(--background-image);
@@ -963,124 +878,7 @@ div[class*="wrapper-3Un6-K"][aria-label*="Online"]
   display: none;
 }
 /*appearance theme preview*/
-#appearance-tab.contentColumn-1C7as6
-  > :not([class]):first-child
-  > .children-1xdcWE
-  > div:nth-child(2)
-  [role="radiogroup"] {
-  display: flex;
-}
-#appearance-tab.contentColumn-1C7as6
-  > :not([class]):first-child
-  > .children-1xdcWE
-  > div:nth-child(2)
-  [role="radiogroup"]
-  .item-2idW98 {
-  width: 134px;
-  height: 88px;
-  margin-right: 20px;
-  border-radius: 20px;
-  box-shadow: var(--box-shadow-outer-3),
-    var(--background-primary-box-shadow-border);
-}
-#appearance-tab.contentColumn-1C7as6
-  > :not([class]):first-child
-  > .children-1xdcWE
-  > div:nth-child(2)
-  [role="radiogroup"]
-  .item-2idW98:first-child {
-  background: url("https://cdn.discordapp.com/attachments/934719923735904257/990556326943932446/unknown.png?size=4096")
-    center/cover;
-}
-#appearance-tab.contentColumn-1C7as6
-  > :not([class]):first-child
-  > .children-1xdcWE
-  > div:nth-child(2)
-  [role="radiogroup"]
-  .item-2idW98:nth-child(2) {
-  background: url("https://cdn.discordapp.com/attachments/934719923735904257/990556326746787840/unknown.png?size=4096")
-    center/cover;
-}
-#appearance-tab.contentColumn-1C7as6
-  > :not([class]):first-child
-  > .children-1xdcWE
-  > div:nth-child(2)
-  [role="radiogroup"]
-  .item-2idW98:nth-child(3) {
-  background: url("https://cdn.discordapp.com/attachments/934719923735904257/990559275145384007/chillax_sync.jpg?size=4096")
-      center/cover,
-    var(--background-primary);
-}
-#appearance-tab.contentColumn-1C7as6
-  > :not([class]):first-child
-  > .children-1xdcWE
-  > div:nth-child(2)
-  [role="radiogroup"]
-  .item-2idW98
-  .radioBar-3w9XY-
-  svg {
-  display: none;
-}
-#appearance-tab.contentColumn-1C7as6
-  > :not([class]):first-child
-  > .children-1xdcWE
-  > div:nth-child(2)
-  [role="radiogroup"]
-  .item-2idW98
-  .radioBar-3w9XY-
-  .info-2FZci4 {
-  margin-right: 0;
-  grid-gap: 0;
-  text-align: center;
-  transform: translateY(40px);
-  pointer-events: none;
-}
-#appearance-tab.contentColumn-1C7as6
-  > :not([class]):first-child
-  > .children-1xdcWE
-  > div:nth-child(2)
-  [role="radiogroup"]
-  .item-2idW98
-  .radioBar-3w9XY- {
-  height: 100%;
-  align-items: flex-end;
-  gap: 0;
-}
-#appearance-tab.contentColumn-1C7as6
-  > :not([class]):first-child
-  > .children-1xdcWE
-  > div:nth-child(2)
-  [role="radiogroup"]
-  .item-2idW98:last-child
-  .info-2FZci4
-  .text-md-medium-2avxhQ {
-  display: none;
-}
-#appearance-tab.contentColumn-1C7as6
-  > :not([class]):first-child
-  > .children-1xdcWE
-  > div:nth-child(2)
-  [role="radiogroup"]
-  .item-2idW98:last-child
-  .info-2FZci4::before {
-  content: "Sync";
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 500;
-}
-#appearance-tab.contentColumn-1C7as6
-  > :not([class]):first-child
-  > .children-1xdcWE
-  > div:nth-child(2)
-  .container-1zDvAE.marginTop20-2T8ZJx {
-  margin-top: 50px;
-}
-/*ping design*/
-.numberBadge-37OJ3S {
-  padding: 5px 10px !important;
-  background-color: #fe365c;
-  box-shadow: 0px 0px 10px 2px #ff2d54;
-}
+
 /*chillax squad font and colour change*/
 [href="https\:\/\/github.com/warrayquipsome/Chillax#author"] {
   font-family: "Libre Barcode 128 Text";
@@ -1331,10 +1129,7 @@ div[class*="wrapper-3Un6-K"][aria-label*="Online"]
     transform: translateY(0px);
   }
 }
-/*guild pills glow*/
-.theme-dark .item-2LIpTv {
-  box-shadow: 0 0 3px rgb(255, 255, 255);
-}
+
 /*inline colour error fix*/
 .theme-dark .inline {
   background: rgba(47, 49, 54, 0.5) !important;
@@ -1357,8 +1152,8 @@ div[class*="wrapper-3Un6-K"][aria-label*="Online"]
   outline: none;
 }
 .theme-dark .children-2C96Ex .colorRed-2VFhM4:hover {
-  background-color: rgb(229, 46, 46) !important;
-  box-shadow: 0px 15px 20px rgba(229, 46, 46, 0.4);
+  background-color: rgb(139, 182, 165) !important;
+  box-shadow: 0px 15px 20px rgb(100, 131, 118, 0.4);
   color: rgb(37, 37, 37) !important;
   transform: translateY(-7px);
 }
@@ -1803,7 +1598,7 @@ display: block;
   content: " If you are sure it's not a virus, copy the link and paste to your browser. Wish you the best and don't get hacked that easily.";
 }
 .body-1oUQrZ strong {
-  color: #a21fff !important;
+  color: #81a998 !important;
   text-shadow: 1 12px 15px #7373ff;
   font-weight: 900 !important;
   font-size: 18px !important;
@@ -2313,58 +2108,7 @@ li.row-uezxzk {
   opacity: 0!important;
 }
 /*custom chillax theme card*/
-#Chillax-card .bd-name {
-  font-size: 100px;
-  text-align: left;
-}
-#Chillax-card .bd-name::after {
-  font-size: 20px;
-  content: "activated";
-  display: block;
-  margin-top: -20px;
-  margin-left: 15px;
-}
-.theme-dark #Chillax-card .bd-meta {
-  margin-left: 15px;
-  bottom: 25px;
-  color: rgb(226, 226, 226);
-}
-#Chillax-card {
-  border: 2px solid var(--accentcolorV2);
-  box-shadow: 0 0 5px var(--accentcolorV2);
-}
-#Chillax-card .bd-addon-header{
-border-bottom: 2px solid var(--accentcolorV2);
-box-shadow: 0 0 5px var(--accentcolorV2);
-}
-#Chillax-card>*:not(#a#B) {
-  background: rgba(var(--accentcolor), .2)!important;
-}
-#Chillax-card .bd-description {
-  display: none;
-}
-.theme-dark #Chillax-card [href='https\:\/\/github.com/warrayquipsome/Chillax'] {
-  color: #fff!important;
-}
-.theme-dark #Chillax-card [href='DrfX6286kF'] {
-  color: #fff!important;
-}
-.bd-grid-view #Chillax-card .bd-name{
-  font-size: 70px;
-  text-align: left;
-}
-.bd-grid-view #Chillax-card .bd-name::after {
-  font-size: 20px;
-  content: "activated";
-  display: block;
-  margin-top: -15px;
-  margin-left: 10px;
-}
-.theme-dark .bd-grid-view #Chillax-card .bd-meta {
-  margin-left: -50px;
-  bottom: 25px;
-  color: rgb(226, 226, 226);
-}
+
 /*nitro badge fix*/
 .profileBadge22-3GAYRy:not(#a#b),.profileBadge22-3OAigE:not(#a#b){
 object-position: unset;
