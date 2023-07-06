@@ -880,18 +880,7 @@ span:not(.spinner-item) {
 /*appearance theme preview*/
 
 /*chillax squad font and colour change*/
-[href="https\:\/\/github.com/warrayquipsome/Chillax#author"] {
-  font-family: "Libre Barcode 128 Text";
-  color: rgb(255, 161, 161) !important;
-  font-weight: 400;
-  font-size: 25px;
-}
-[href="https\:\/\/github.com/warrayquipsome/Chillax#author"]:hover {
-  font-family: "Libre Barcode 128";
-  color: rgb(255, 161, 161) !important;
-  font-weight: 400;
-  font-size: 25px;
-}
+
 /*custom group font*/
 .input-1nrc5P {
   overflow: visible !important;
@@ -1114,21 +1103,6 @@ span:not(.spinner-item) {
   z-index: -1;
 }
 /* Settings/Deafen/Mute Buttons Animated */
-.button-12Fmur:hover .contents-3ca1mk {
-  animation: UserModalButtons 0.5s normal ease;
-}
-
-@keyframes UserModalButtons {
-  0% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-5px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
 
 /*inline colour error fix*/
 .theme-dark .inline {
@@ -1319,7 +1293,7 @@ span:not(.spinner-item) {
   flex: 1 1 calc(25% - 2px);
   display: flex;
   justify-content: center;
-  height: 40px;
+  height: 80px;
 }
 .status-qmUf7L,
 .description-22_U3B,
